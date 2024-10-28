@@ -1,4 +1,28 @@
 #include <iostream>
+#include "letter_maker_functions.cc"
+
 using namespace std;
 
-string A1, A2, A3, A4, A5;
+int main(int argc, char const *argv[])
+{
+    bool rerun = true;
+    char ch;
+    string phrase;
+
+    do
+    {
+        cout << "What do you want to print?" << endl;
+        getline(cin, phrase);
+        printPhraseBig(phrase);
+
+        cout << "Rerun? (Y/N)" << endl;
+        cin >> ch;
+        if (toupper(ch) != 'Y')
+        {
+            rerun = false;
+        }
+
+    } while (rerun == true);
+
+    return 0;
+}

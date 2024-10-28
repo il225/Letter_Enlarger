@@ -4,506 +4,114 @@
 using namespace std;
 
 void printPhraseBig(const string &str);
-void printLine1(char ch);
-void printLine2(char ch);
-void printLine3(char ch);
-void printLine4(char ch);
-void printLine5(char ch);
+
+///@brief prints line of characters
+///@param line from 1 to 5
+void printLine(char ch, int line);
+
 
 void printPhraseBig(const string &str)
 {
     /// printing lines separately
-    for (size_t i = 0; i < str.length(); i++)
+    for (size_t i = o; i < str.length(); i++)
     {
         char ch = str.at(i);
-        printLine1(ch);
+        printLine(ch, 1);
     }
-    for (size_t i = 0; i < str.length(); i++)
-    {
-        char ch = str.at(i);
-        printLine2(ch);
-    }
-    for (size_t i = 0; i < str.length(); i++)
-    {
-        char ch = str.at(i);
-        printLine3(ch);
-    }
-    for (size_t i = 0; i < str.length(); i++)
-    {
-        char ch = str.at(i);
-        printLine4(ch);
-    }
-    for (size_t i = 0; i < str.length(); i++)
-    {
-        char ch = str.at(i);
-        printLine5(ch);
-    }
+  
 }
 
-void printLine1(char ch)
+void printLine(char ch, int line)
 {
+    line++; //real line value
+    
     switch (toupper(ch))
     {
     case 'A':
-        cout << "           ";
+        cout << A[line];
         break;
     case 'B':
-        cout << "           ";
+        cout << B[line];
         break;
     case 'C':
-        cout << "           ";
+        cout << C[line];
         break;
     case 'D':
-        cout << "           ";
+        cout << D[line];
         break;
     case 'E':
-        cout << "           ";
+        cout << E[line];
         break;
     case 'F':
-        cout << "           ";
+        cout << F[line];
         break;
     case 'G':
-        cout << "           ";
+        cout << G[line];
         break;
     case 'H':
-        cout << "           ";
+        cout << H[line];
         break;
     case 'I':
-        cout << "           ";
+        cout << I[line];
         break;
     case 'J':
-        cout << "           ";
+        cout << J[line];
         break;
     case 'K':
-        cout << "           ";
+        cout << K[line];
         break;
     case 'L':
-        cout << "           ";
+        cout << L[line];
         break;
     case 'M':
-        cout << "           ";
+        cout << M[line];
         break;
     case 'N':
-        cout << "           ";
+        cout << N[line];
         break;
     case 'O':
-        cout << "           ";
+        cout << O[line];
         break;
     case 'P':
-        cout << "           ";
+        cout << P[line];
         break;
     case 'Q':
-        cout << "           ";
+        cout << Q[line];
         break;
     case 'R':
-        cout << "           ";
+        cout << R[line];
         break;
     case 'S':
-        cout << "           ";
+        cout << S[line];
         break;
     case 'T':
-        cout << "           ";
+        cout << T[line];
         break;
     case 'U':
-        cout << "           ";
+        cout << U[line];
         break;
     case 'V':
-        cout << "           ";
+        cout << V[line];
         break;
     case 'W':
-        cout << "           ";
+        cout << W[line];
         break;
     case 'X':
-        cout << "           ";
+        cout << X[line];
         break;
     case 'Y':
-        cout << "           ";
+        cout << Y[line];
         break;
     case 'Z':
-        cout << "           ";
+        cout << Z[line];
         break;
     case ' ':
-        cout << "           "; // input space between letters
+        cout << space[line]; // input space between letters
         break;
     default:
-        cout << "           "; // printing a dash
+        cout << endash[line]; // printing a dash
     }
-    if (ch != ' ')
-    {
-        cout << "   "; // normal space between non-whitespace characters (kerning)
-    }
-}
 
-void printLine2(char ch)
-{
-    switch (toupper(ch))
-    {
-    case 'A':
-        cout << "           ";
-        break;
-    case 'B':
-        cout << "           ";
-        break;
-    case 'C':
-        cout << "           ";
-        break;
-    case 'D':
-        cout << "           ";
-        break;
-    case 'E':
-        cout << "           ";
-        break;
-    case 'F':
-        cout << "           ";
-        break;
-    case 'G':
-        cout << "           ";
-        break;
-    case 'H':
-        cout << "           ";
-        break;
-    case 'I':
-        cout << "           ";
-        break;
-    case 'J':
-        cout << "           ";
-        break;
-    case 'K':
-        cout << "           ";
-        break;
-    case 'L':
-        cout << "           ";
-        break;
-    case 'M':
-        cout << "           ";
-        break;
-    case 'N':
-        cout << "           ";
-        break;
-    case 'O':
-        cout << "           ";
-        break;
-    case 'P':
-        cout << "           ";
-        break;
-    case 'Q':
-        cout << "           ";
-        break;
-    case 'R':
-        cout << "           ";
-        break;
-    case 'S':
-        cout << "           ";
-        break;
-    case 'T':
-        cout << "           ";
-        break;
-    case 'U':
-        cout << "           ";
-        break;
-    case 'V':
-        cout << "           ";
-        break;
-    case 'W':
-        cout << "           ";
-        break;
-    case 'X':
-        cout << "           ";
-        break;
-    case 'Y':
-        cout << "           ";
-        break;
-    case 'Z':
-        cout << "           ";
-        break;
-    case ' ':
-        cout << "           "; // input space between letters
-        break;
-    default:
-        cout << "           "; // printing a dash
-    }
-    if (ch != ' ')
-    {
-        cout << "   "; // normal space between non-whitespace characters (kerning)
-    }
-}
-
-void printLine3(char ch)
-{
-    switch (toupper(ch))
-    {
-    case 'A':
-        cout << "           ";
-        break;
-    case 'B':
-        cout << "           ";
-        break;
-    case 'C':
-        cout << "           ";
-        break;
-    case 'D':
-        cout << "           ";
-        break;
-    case 'E':
-        cout << "           ";
-        break;
-    case 'F':
-        cout << "           ";
-        break;
-    case 'G':
-        cout << "           ";
-        break;
-    case 'H':
-        cout << "           ";
-        break;
-    case 'I':
-        cout << "           ";
-        break;
-    case 'J':
-        cout << "           ";
-        break;
-    case 'K':
-        cout << "           ";
-        break;
-    case 'L':
-        cout << "           ";
-        break;
-    case 'M':
-        cout << "           ";
-        break;
-    case 'N':
-        cout << "           ";
-        break;
-    case 'O':
-        cout << "           ";
-        break;
-    case 'P':
-        cout << "           ";
-        break;
-    case 'Q':
-        cout << "           ";
-        break;
-    case 'R':
-        cout << "           ";
-        break;
-    case 'S':
-        cout << "           ";
-        break;
-    case 'T':
-        cout << "           ";
-        break;
-    case 'U':
-        cout << "           ";
-        break;
-    case 'V':
-        cout << "           ";
-        break;
-    case 'W':
-        cout << "           ";
-        break;
-    case 'X':
-        cout << "           ";
-        break;
-    case 'Y':
-        cout << "           ";
-        break;
-    case 'Z':
-        cout << "           ";
-        break;
-    case ' ':
-        cout << "           "; // input space between letters
-        break;
-    default:
-        cout << "           "; // printing a dash
-    }
-    if (ch != ' ')
-    {
-        cout << "   "; // normal space between non-whitespace characters (kerning)
-    }
-}
-
-void printLine4(char ch)
-{
-    switch (toupper(ch))
-    {
-    case 'A':
-        cout << "           ";
-        break;
-    case 'B':
-        cout << "           ";
-        break;
-    case 'C':
-        cout << "           ";
-        break;
-    case 'D':
-        cout << "           ";
-        break;
-    case 'E':
-        cout << "           ";
-        break;
-    case 'F':
-        cout << "           ";
-        break;
-    case 'G':
-        cout << "           ";
-        break;
-    case 'H':
-        cout << "           ";
-        break;
-    case 'I':
-        cout << "           ";
-        break;
-    case 'J':
-        cout << "           ";
-        break;
-    case 'K':
-        cout << "           ";
-        break;
-    case 'L':
-        cout << "           ";
-        break;
-    case 'M':
-        cout << "           ";
-        break;
-    case 'N':
-        cout << "           ";
-        break;
-    case 'O':
-        cout << "           ";
-        break;
-    case 'P':
-        cout << "           ";
-        break;
-    case 'Q':
-        cout << "           ";
-        break;
-    case 'R':
-        cout << "           ";
-        break;
-    case 'S':
-        cout << "           ";
-        break;
-    case 'T':
-        cout << "           ";
-        break;
-    case 'U':
-        cout << "           ";
-        break;
-    case 'V':
-        cout << "           ";
-        break;
-    case 'W':
-        cout << "           ";
-        break;
-    case 'X':
-        cout << "           ";
-        break;
-    case 'Y':
-        cout << "           ";
-        break;
-    case 'Z':
-        cout << "           ";
-        break;
-    case ' ':
-        cout << "           "; // input space between letters
-        break;
-    default:
-        cout << "           "; // printing a dash
-    }
-    if (ch != ' ')
-    {
-        cout << "   "; // normal space between non-whitespace characters (kerning)
-    }
-}
-
-void printLine5(char ch)
-{
-    switch (toupper(ch))
-    {
-    case 'A':
-        cout << "           ";
-        break;
-    case 'B':
-        cout << "           ";
-        break;
-    case 'C':
-        cout << "           ";
-        break;
-    case 'D':
-        cout << "           ";
-        break;
-    case 'E':
-        cout << "           ";
-        break;
-    case 'F':
-        cout << "           ";
-        break;
-    case 'G':
-        cout << "           ";
-        break;
-    case 'H':
-        cout << "           ";
-        break;
-    case 'I':
-        cout << "           ";
-        break;
-    case 'J':
-        cout << "           ";
-        break;
-    case 'K':
-        cout << "           ";
-        break;
-    case 'L':
-        cout << "           ";
-        break;
-    case 'M':
-        cout << "           ";
-        break;
-    case 'N':
-        cout << "           ";
-        break;
-    case 'O':
-        cout << "           ";
-        break;
-    case 'P':
-        cout << "           ";
-        break;
-    case 'Q':
-        cout << "           ";
-        break;
-    case 'R':
-        cout << "           ";
-        break;
-    case 'S':
-        cout << "           ";
-        break;
-    case 'T':
-        cout << "           ";
-        break;
-    case 'U':
-        cout << "           ";
-        break;
-    case 'V':
-        cout << "           ";
-        break;
-    case 'W':
-        cout << "           ";
-        break;
-    case 'X':
-        cout << "           ";
-        break;
-    case 'Y':
-        cout << "           ";
-        break;
-    case 'Z':
-        cout << "           ";
-        break;
-    case ' ':
-        cout << "           "; // input space between letters
-        break;
-    default:
-        cout << "           "; // printing a dash
-    }
     if (ch != ' ')
     {
         cout << "   "; // normal space between non-whitespace characters (kerning)
