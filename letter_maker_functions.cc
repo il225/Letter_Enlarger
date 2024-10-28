@@ -6,25 +6,35 @@ using namespace std;
 void printPhraseBig(const string &str);
 
 ///@brief prints line of characters
-///@param line from 1 to 5
+///@param line from index 0 to index 5
 void printLine(char ch, int line);
 
 
 void printPhraseBig(const string &str)
 {
-    /// printing lines separately
-    for (size_t i = o; i < str.length(); i++)
+    int current_line = 0;
+    while(current_line < 5)
+    {
+    for (size_t i = 0; i < str.length(); i++)
     {
         char ch = str.at(i);
-        printLine(ch, 1);
+        if(i == str.length()-1)
+        {
+            printLine(ch, current_line);
+            cout << endl;
+            current_line++;
+        }
+        else
+        {
+            printLine(ch, current_line);
+        }
+    }
     }
   
 }
 
 void printLine(char ch, int line)
-{
-    line++; //real line value
-    
+{   
     switch (toupper(ch))
     {
     case 'A':

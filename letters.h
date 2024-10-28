@@ -97,7 +97,7 @@ const string M[5] =
 const string N[5] =
     {"NNN     NNN",
      "NNNNN   NNN",
-     "NNN NNN NNN ",
+     "NNN NNN NNN",
      "NNN   NNNNN",
      "NNN     NNN"};
 
@@ -167,7 +167,7 @@ const string W[5] =
 const string X[5] =
     {"XXX     XXX",
      "  XXX XXX  ",
-     "   XXXXX  ",
+     "   XXXXX   ",
      "  XXX XXX  ",
      "XXX     XXX"};
 

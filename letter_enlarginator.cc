@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     char ch;
     string phrase;
 
-    do
+    while (rerun == true)
     {
         cout << "What do you want to print?" << endl;
         getline(cin, phrase);
@@ -21,8 +21,7 @@ int main(int argc, char const *argv[])
         {
             rerun = false;
         }
-
-    } while (rerun == true);
+    }
 
     return 0;
 }
