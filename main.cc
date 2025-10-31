@@ -1,5 +1,5 @@
 #include <iostream>
-#include "letter_maker_functions.cc"
+#include "letter_functions.h"
 
 using namespace std;
 

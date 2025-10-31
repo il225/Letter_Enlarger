@@ -1,6 +1,8 @@
-#include <iostream>
-using namespace std;
+#ifndef letters
+#define letters
 
+#include <string>
+using namespace std;
 
 const string A[5] =
     {"    AAA    ",
@@ -166,9 +168,9 @@ const string W[5] =
 
 const string X[5] =
     {"XXX     XXX",
-     "  XXX XXX  ",
-     "   XXXXX   ",
-     "  XXX XXX  ",
+     "  XX   XX  ",
+     "    XXX    ",
+     "  XX   XX  ",
      "XXX     XXX"};
 
 const string Y[5] =
@@ -180,9 +182,9 @@ const string Y[5] =
 
 const string Z[5] =
     {"ZZZZZZZZZZZ",
-     "     ZZZZ  ",
-     "   ZZZZ    ",
-     " ZZZZ      ",
+     "      ZZZ  ",
+     "    ZZ     ",
+     " ZZZ       ",
      "ZZZZZZZZZZZ"};
 
 const string space[5] =
@@ -198,3 +200,5 @@ const string endash[5] =
      "   -----   ",
      "           ",
      "           "};
+
+#endif // !letters
