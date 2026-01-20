@@ -6,3 +6,4 @@ letter_enlarginator.out : main.cc letter_functions.h letters.h
 
 clean :
 	rm -rf *.o
+	rm -rf *.out
