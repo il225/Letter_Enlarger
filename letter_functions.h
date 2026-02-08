@@ -115,6 +115,12 @@ void printLine(char ch, int line) {
         case '-':
             cout << endash[line];
             break;
+        case '.':
+            cout << period[line];
+            break;
+        case ',':
+            cout << comma[line];
+            break;
         // this part breaks because em dash is a wide character
         // need to refactor if i really want to make every single easy character, or add more wide char
         // case '—':
@@ -124,7 +130,7 @@ void printLine(char ch, int line) {
             cout << endash[line];
   }
 
-  if (ch != ' ') { // normal space between non-whitespace characters (kerning)
+  if (ch != ' ') { // normal space between non-whitespace characters (kerning purposes)
       cout << "   ";
   }
 }

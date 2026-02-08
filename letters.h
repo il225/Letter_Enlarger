@@ -12,45 +12,45 @@ const string A[5] =
      "AAA     AAA"};
 
 const string B[5] =
-    {"BBBBBBBBBB ",
-     " BBB   BBBB",
-     " BBBBBBBBB ",
+    {"BBBBBBBBBb ",
+     " BBb   BBBb",
+     " BBBBBBBBb ",
      " BBB   BBBB",
      "BBBBBBBBBB ",
 };
 
 const string C[5] =
     {" CCCCCCCCC ",
-     "CCC     CCC",
-     "CCC        ",
-     "CCC     CCC",
+     "CCC    cCCc",
+     "CCc        ",
+     "CCC    cCCc",
      " CCCCCCCCC "};
 
 const string D[5] =
     {"DDDDDDDDD  ",
+     " DDD   dDDD",
      " DDD    DDD",
-     " DDD    DDD",
-     " DDD    DDD",
+     " DDD   dDDD",
      "DDDDDDDDD  "};
 
 const string E[5] =
-    {"EEEEEEEEEE ",
+    {"EEEEEEEEEEE",
      "EEE        ",
      "EEEEEEE    ",
      "EEE        ",
-     "EEEEEEEEEE "};
+     "EEEEEEEEEEE"};
 
 const string F[5] =
-    {"FFFFFFFFFF ",
-     "FFF        ",
+    {"FFFFFFFFFFF",
+     "FFF       F",
      "FFFFFF     ",
      "FFF        ",
      "FFF        "};
 
 const string G[5] =
-    {" GGGGGGGGG ",
+    {" GGGGGGGGg ",
      "GGG        ",
-     "GG     GGGG",
+     "GG     gGGG",
      "GGG      GG",
      " GGGGGGGGG "};
 
@@ -69,94 +69,94 @@ const string I[5] =
      "IIIIIIIIIII"};
 
 const string J[5] =
-    {"  JJJJJJJJJ",
-     "     JJJ   ",
-     "     JJJ   ",
-     "JJ   JJJ   ",
-     " JJJJJJ    "};
+    {"JJJJJJJJJJJ",
+     "    JJJ    ",
+     "    JJJ    ",
+     "JJ  JJJ    ",
+     " JJJJJ     "};
 
 const string K[5] =
-    {"KK     KK",
-     "KK   KK  ",
-     "KK KK   ",
-     "KK    KK  ",
-     "KK      KK"};
+    {"KKKK   kKKk",
+     " KK  kKKk  ",
+     " KKKKKk    ",
+     " KK  kKKk  ",
+     "KKKK   kKKk"};
 
 const string L[5] =
-    {"LLL        ",
-     "LLL        ",
-     "LLL        ",
-     "LLL        ",
+    {"LLLLL      ",
+     " LLL       ",
+     " LLL       ",
+     " LLL      L",
      "LLLLLLLLLLL"};
 
 const string M[5] =
     {"MMM     MMM",
-     "MMMMM MMMMM",
-     "MM MMMMM MM",
-     "MM  MMM  MM",
-     "MM   M   MM"};
+     " MMM   MMM ",
+     " MMmM MmMM ",
+     " MM mMm MM ",
+     "MMM  M  MMM"};
 
 const string N[5] =
-    {"NNN     NNN",
-     "NNNNN   NNN",
-     "NNN NNN NNN",
-     "NNN   NNNNN",
-     "NNN     NNN"};
+    {"NNN    NNNN",
+     " NNNN   NN ",
+     " NN nNn NN ",
+     " NN   NNNN ",
+     "NNNN    NNN"};
 
 const string O[5] =
     {" OOOOOOOOO ",
-     "OOO     OOO",
+     "OOo     oOO",
      "OO       OO",
-     "OOO     OOO",
+     "OOo     oOO",
      " OOOOOOOOO "};
 
 const string P[5] =
     {"PPPPPPPPPP ",
-     " PPP   PPPP",
+     " PPP    pPP",
      " PPPPPPPPP ",
      " PPP       ",
      "PPPPP      "};
 
 const string Q[5] =
     {" QQQQQQQQQ ",
-     "QQQ     QQQ",
-     "QQ   QQ  QQ",
-     "QQQ   QQ QQ",
-     " QQQQQ QQQ "};
+     "QQq     qQQ",
+     "QQ   qQ  QQ",
+     "QQq   qQ qQ",
+     " QQQQQ QQ  "};
 
 const string R[5] =
     {"RRRRRRRRRR ",
-     " RRR    RRR",
+     " RRR    rRR",
      " RRRRRRRRR ",
      " RRR  RRR  ",
      "RRRRR  RRRR"};
 
 const string S[5] =
-    {" SSSSSSSSSS",
-     "SS         ",
-     " SSSSSSSSS ",
-     "         SS",
-     "SSSSSSSSSS "};
+    {" sSSSSSSSSs",
+     "SSs        ",
+     " sSSSSSSSs ",
+     "        sSS",
+     "sSSSSSSSSs "};
 
 const string T[5] =
     {"TTTTTTTTTTT",
+     "T   TTT   T",
      "    TTT    ",
      "    TTT    ",
-     "    TTT    ",
-     "    TTT    "};
+     "   TTTTT   "};
 
 const string U[5] =
     {"UUUU   UUUU",
-     "UUUU   UUUU",
-     "UUUU   UUUU",
-     "UUUUUUUUUUU",
-     "  UUUUUUU  "};
+     " UUU   UUU ",
+     " UUU   UUU ",
+     " UUU   UUU ",
+     "  UUUuUUU  "};
 
 const string V[5] =
     {"VVV     VVV",
      " VVV   VVV ",
      "  VVV VVV  ",
-     "   VVVVV   ",
+     "   VVvVV   ",
      "    VVV    "};
 
 const string W[5] =
@@ -167,24 +167,24 @@ const string W[5] =
      " WWW   WWW "};
 
 const string X[5] =
-    {"XXX     XXX",
-     "  XX   XX  ",
+    {"XXXx   xXXX",
+     "  XXx xXX  ",
      "    XXX    ",
-     "  XX   XX  ",
-     "XXX     XXX"};
+     "  XXx xXX  ",
+     "XXXx   xXXX"};
 
 const string Y[5] =
     {"YYYY   YYYY",
      "  YYY YYY  ",
      "    YYY    ",
      "    YYY    ",
-     "    YYY    "};
+     "   YYYYY   "};
 
 const string Z[5] =
     {"ZZZZZZZZZZZ",
-     "      ZZZ  ",
-     "    ZZ     ",
-     " ZZZ       ",
+     "Z    zZZz  ",
+     "   zZZz    ",
+     " zZZz     Z",
      "ZZZZZZZZZZZ"};
 
 const string space[5] =
@@ -201,4 +201,18 @@ const string endash[5] =
      "           ",
      "           "};
 
+const string period[5]
+    {"           ",
+     "           ",
+     "           ",
+     "    ..     ",
+     "    ..     "};
+
+
+const string comma[5]
+    {"           ",
+     "           ",
+     "           ",
+     "    ,,     ",
+     "   ,,,     "};
 #endif // !letters
